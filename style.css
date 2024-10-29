@@ -1,0 +1,143 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  #main-header {
+    background-color:coral;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #main-header h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  /* Navbar Styles */
+  #navbar {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  #navbar li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  #navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  #navbar a:hover {
+    color: #ff6b6b;
+  }
+  
+  /* Main Content Styles */
+  #showcase {
+    padding: 40px 0;
+  }
+  
+  #main {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #main h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Product Styles */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .column img:hover {
+    transform: scale(1.05);
+  }
+  
+  .column h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .column p {
+    margin-top: 5px;
+  }
+  
+  /* Footer Styles */
+  #main-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .column {
+      width: 50%;
+    }
+  
+    #main {
+      width: 100%;
+      float: none;
+    }
+  
+    #showcase {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  
